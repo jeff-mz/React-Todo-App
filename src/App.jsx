@@ -5,11 +5,11 @@ function App() {
   return (
     <main
       id="main"
-      className=" w-full h-full py-12 flex flex-col items-center justify-center  font-display"
+      className=" w-full h-full py-12 flex flex-col items-center justify-center  font-display bg-[#2b2d42] min-h-screen"
     >
       <TodoCard />
-      <p className="text-[16px] font-bold text-[#2b2d42] mt-[16px]">
-        Coded Jafar Mirzapoor with 💗
+      <p className="text-[16px] font-bold text-stone-100 mt-[16px]">
+        Made by Jafar Mirzapoor with 💗
       </p>
     </main>
   );

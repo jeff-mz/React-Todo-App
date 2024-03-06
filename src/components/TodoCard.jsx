@@ -23,7 +23,7 @@ function TodoCard() {
   };
 
   return (
-    <div className="w-[90%] bg-[#2b2d42] p-2 rounded- flex flex-col items-center ">
+    <div className="w-[90%]  p-2 rounded- flex flex-col items-center ">
       <h1 className="text-4xl text-white font-bold my-8 text-center md:text-6xl">
         Get Things Done!
       </h1>
