@@ -49,7 +49,7 @@ function TodoCard() {
           onChange={handleInputChange}
           placeholder="Create a new task..."
           style={{ borderRadius: "6px 0px 0px 6px" }}
-          className="w-3/5 px-4 py-4 xl:py-8 text-[16px] border-none outline-none  md:text-2xl md:p-4 xl:text-4xl 2xl:text-6xl 2xl:py-7"
+          className="w-3/5 px-4 py-4 xl:py-8 text-[16px] border-none outline-none  md:text-xl md:p-4 xl:text-3xl 2xl:text-xl"
         />
         <button
           type="submit"
