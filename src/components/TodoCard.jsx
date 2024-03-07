@@ -49,13 +49,13 @@ function TodoCard() {
           onChange={handleInputChange}
           placeholder="Create a new task..."
           style={{ borderRadius: "6px 0px 0px 6px" }}
-          className="w-3/5 px-4 py-4 xl:py-8 text-[16px] border-none outline-none  md:text-xl md:p-4 xl:text-3xl 2xl:text-xl"
+          className="w-3/5 px-4 py-4 xl:py-8 text-[16px] border-none outline-none  md:text-xl lg:text-2xl md:p-4 xl:text-3xl 2xl:text-4xl"
         />
         <button
           type="submit"
           onClick={handleTaskSubmission}
           style={{ borderRadius: "0px 6px 6px 0px" }}
-          className="w-2/5 px-2 py-4 xl:py-8 text-[16px] bg-[#ffaf3e]  text-[#1e221e] font-medium md:text-xl md:p-4 xl:text-3xl 2xl:text-4xl"
+          className="w-2/5 px-2 py-4 xl:py-8 text-[16px] bg-[#ffaf3e]  text-[#1e221e] font-medium md:text-xl lg:text-2xl md:p-4 xl:text-3xl 2xl:text-4xl"
         >
           Add Task
         </button>
@@ -68,7 +68,7 @@ function TodoCard() {
           Your task list
         </p>
         {tasks.map((task) => (
-          <li className="w-[90%] list-decimal flex items-center py-4 px-4 m-auto rounded-lg justify-between bg-[#57598d]">
+          <li className="w-[90%] list-decimal flex items-center py-4 px-4 m-auto rounded-lg justify-between bg-[#57598d] my-4">
             <p
               className={`text-[18px] ${
                 task.done ? "line-through" : ""
