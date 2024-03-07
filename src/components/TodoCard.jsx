@@ -55,7 +55,7 @@ function TodoCard() {
           type="submit"
           onClick={handleTaskSubmission}
           style={{ borderRadius: "0px 6px 6px 0px" }}
-          className="w-2/5 px-2 py-4 xl:py-8 text-[16px] bg-[#ffaf3e]  text-[#1e221e] font-medium lg:w-1/5 md:text-2xl md:p-4 xl:text-4xl 2xl:text-6xl"
+          className="w-2/5 px-2 py-4 xl:py-8 text-[16px] bg-[#ffaf3e]  text-[#1e221e] font-medium lg:w-1/5 md:text-xl md:p-4 xl:text-3xl 2xl:text-4xl"
         >
           Add Task
         </button>
